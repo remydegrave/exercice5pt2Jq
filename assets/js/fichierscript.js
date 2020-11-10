@@ -1,0 +1,20 @@
+$(function(){
+    $('#green').mouseover(function(){
+        $('#text').css('color','#97c166');
+    });
+    $('#green').mouseout(function(){
+        $('#text').css('color','#000000');
+    });
+    $('#red').mouseover(function(){
+        $('#text').css('color','#b71f1f');
+    });
+    $('#red').mouseout(function(){
+        $('#text').css('color','#000000');
+    });
+    $('#blue').mouseover(function(){
+        $('#text').css('color','#5969e0');
+    });
+    $('#blue').mouseout(function(){
+        $('#text').css('color','#000000');
+    });
+});
